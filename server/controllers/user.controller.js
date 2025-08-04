@@ -147,7 +147,7 @@ const login = async (req, res, next) => {
 */
 
 const logout = async (req, res, next) => {
-    console.log("Logout route hit");
+
     // Setting the cookie value to null
     res.cookie('token', null, {
         secure: true,
